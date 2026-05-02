@@ -9,8 +9,8 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  // Set base path for GitHub Pages
-  base: "/Academic_Portfolio/",
+  // Set base path to relative for portability on GitHub Pages
+  base: './',
   plugins: [
     react(),
     mode === 'development' &&
