@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   // Set base path for GitHub Pages
-  base: "/Academic_Portfolio-main/",
+  base: "/Academic_Portfolio/",
   plugins: [
     react(),
     mode === 'development' &&
