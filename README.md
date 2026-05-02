@@ -4,7 +4,7 @@
 
 ### CSE Undergraduate | AI/ML Enthusiast | Educator & Builder
 
-[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Now-blue?style=for-the-badge)](https://mohammademon10.github.io/Academic_Portfolio-main/)
+[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Now-blue?style=for-the-badge)](https://mohammademon10.github.io/Academic_Portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-mohammademon10-181717?style=for-the-badge&logo=github)](https://github.com/mohammademon10)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-md--emon--hossain-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/md-emon-hossain-22774b1a6/)
 [![HackerRank](https://img.shields.io/badge/HackerRank-emonemran677-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/emonemran677)
@@ -109,8 +109,8 @@ I am also an active **General Member of the DIU Embedded System Research Lab**, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/mohammademon10/Academic_Portfolio-main.git
-cd Academic_Portfolio-main
+git clone https://github.com/mohammademon10/Academic_Portfolio.git
+cd Academic_Portfolio
 
 # Install dependencies
 npm install
@@ -119,17 +119,7 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:5173` in your browser.
-
----
-
-## 📦 Build for Production
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist/` folder, ready for deployment on GitHub Pages or any static host.
+Open `http://localhost:8080` in your browser.
 
 ---
 
@@ -142,6 +132,7 @@ The built files will be in the `dist/` folder, ready for deployment on GitHub Pa
 | 🎨 Tailwind CSS | Utility-first styling |
 | 🔀 React Router (HashRouter) | Client-side navigation for GitHub Pages |
 | 🌙 Theme Toggle | Light / Dark mode support |
+| 🚀 GitHub Actions | Automated CI/CD deployment |
 
 ---
 
@@ -151,6 +142,6 @@ The built files will be in the `dist/` folder, ready for deployment on GitHub Pa
 
 *CSE Undergraduate · Daffodil International University · Dhaka, Bangladesh*
 
-[![GitHub stars](https://img.shields.io/github/stars/mohammademon10/Academic_Portfolio-main?style=social)](https://github.com/mohammademon10/Academic_Portfolio-main)
+[![GitHub stars](https://img.shields.io/github/stars/mohammademon10/Academic_Portfolio?style=social)](https://github.com/mohammademon10/Academic_Portfolio)
 
 </div>
