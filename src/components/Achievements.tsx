@@ -96,6 +96,15 @@ const Achievements = () => {
       link: "https://drive.google.com/open?id=1SAvlKKd2pRSpBg66dBfXrJ_S-3-p1qLv"
     },
     {
+      title: "9th Bangladesh Physics Olympiad — Participant",
+      organization: "Bangladesh Physics Olympiad Committee",
+      year: "2019",
+      description: "Participated in the B category at the Regional Round of the 9th Dutch-Bangla Bank-Prothom Alo Bangladesh Physics Olympiad 2019, representing Noakhali Zilla School.",
+      type: "competition",
+      icon: <Trophy size={24} className="text-amber-600 dark:text-amber-400" />,
+      link: "https://drive.google.com/open?id=1yCMWfTt4YO2d38gVfsUUUdsTxFbZv-Wi"
+    },
+    {
       title: "Regional High School ICT Quiz Contest",
       organization: "Noakhali Science and Technology University",
       year: "2017",
