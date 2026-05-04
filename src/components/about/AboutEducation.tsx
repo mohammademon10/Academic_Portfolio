@@ -1,8 +1,8 @@
 import React from 'react';
 import { GraduationCap, Calendar, Building2, MapPin, ExternalLink } from 'lucide-react';
-const diu = "/img/diu.png";
-const dcc = "/img/dcc.png";
-const nzs = "/img/nzs_logo.png";
+import diu from '../../../public/img/diu.png';
+import dcc from '../../../public/img/dcc.png';
+import nzs from '../../../public/img/nzs_logo.png';
 
 const AboutEducation = () => {
   const education = [
