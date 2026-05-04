@@ -1,8 +1,8 @@
 import React from 'react';
 import { GraduationCap, Calendar, Building2, MapPin, ExternalLink } from 'lucide-react';
-import diu from '../../../public/img/diu.png';
-import dcc from '../../../public/img/dcc.png';
-import nzs from '../../../public/img/nzs_logo.png';
+const diu = "/img/diu.png";
+const dcc = "/img/dcc.png";
+const nzs = "/img/nzs_logo.png";
 
 const AboutEducation = () => {
   const education = [
@@ -14,7 +14,8 @@ const AboutEducation = () => {
       description: "Currently Enrolled",
       logo: diu,
       theme: "bg-gradient-to-br from-green-100 to-emerald-100 dark:from-green-900/20 dark:to-emerald-900/20 border-green-300 dark:border-green-700",
-      iconColor: "text-green-700 dark:text-green-400"
+      iconColor: "text-green-700 dark:text-green-400",
+      certificateLink: ""
     },
     {
       degree: "Higher Secondary School Certificate (HSC)",
