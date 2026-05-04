@@ -1,5 +1,5 @@
 import React from 'react';
-import { GraduationCap, Calendar, Building2, MapPin } from 'lucide-react';
+import { GraduationCap, Calendar, Building2, MapPin, ExternalLink } from 'lucide-react';
 import diu from '../../../public/img/diu.png';
 import dcc from '../../../public/img/dcc.png';
 import nzs from '../../../public/img/nzs_logo.png';
@@ -24,7 +24,8 @@ const AboutEducation = () => {
       description: "Group: Science | GPA: 5.00 (On a scale of 5)",
       logo: dcc,
       theme: "bg-gradient-to-br from-blue-100 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 border-blue-300 dark:border-blue-700",
-      iconColor: "text-blue-700 dark:text-blue-400"
+      iconColor: "text-blue-700 dark:text-blue-400",
+      certificateLink: "https://drive.google.com/open?id=1hdK8nMp0lXWfItSrcmnaeNa_-yTWmQmz"
     },
     {
       degree: "Secondary School Certificate (SSC)",
@@ -91,6 +92,17 @@ const AboutEducation = () => {
               <span>{item.location}</span>
             </div>
             <p className="text-slate-600 dark:text-slate-400 text-sm">{item.description}</p>
+            {item.certificateLink && (
+              <a
+                href={item.certificateLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`mt-4 inline-flex items-center text-sm font-medium ${item.iconColor} hover:underline transition-all duration-200`}
+              >
+                <span>View Certificate</span>
+                <ExternalLink size={14} className="ml-1" />
+              </a>
+            )}
           </div>
         ))}
       </div>
