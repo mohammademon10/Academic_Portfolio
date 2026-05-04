@@ -35,7 +35,8 @@ const AboutEducation = () => {
       description: "Group: Science | GPA: 5.00 (On a scale of 5)",
       logo: nzs,
       theme: "bg-gradient-to-br from-red-100 to-pink-100 dark:from-red-900/20 dark:to-pink-900/20 border-red-300 dark:border-red-700",
-      iconColor: "text-red-700 dark:text-red-400"
+      iconColor: "text-red-700 dark:text-red-400",
+      certificateLink: "https://drive.google.com/open?id=1wmN-4RVGRqImEX6a8WL7fUkEeMr3SfIV"
     }
   ];
 
