@@ -9,8 +9,8 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  // Set base path to relative for portability on GitHub Pages
-  base: './',
+  // Set base path to root for custom domain
+  base: '/',
   plugins: [
     react(),
     mode === 'development' &&
